@@ -1,4 +1,4 @@
-# SyntaxSentinel - AI Editorial Assistant
+# Syntax Guard - AI Editorial Assistant
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://salvadorpantoja.dev/syntax-sentinel/)
 [![Architecture: Cloudflare Workers](https://img.shields.io/badge/Backend-Cloudflare_Workers-orange.svg)](https://workers.cloudflare.com/)
@@ -8,7 +8,7 @@
 A specialized editorial tool that enforces strict corporate style guides using LLMs. It features a **Serverless Proxy Architecture** to ensure API security and data privacy.
 
 ## 🚀 Live Demo
-**[View Live Project Here](https://salvadorpantoja.dev/syntax-sentinel/)**
+**[View Live Project Here](https://salvadorpantoja.dev/syntaxguard/)**
 
 ## 💡 The Problem
 Mainstream grammar checkers (like Grammarly) catch spelling errors but fail to enforce **company-specific branding rules**. For example, a legal firm might strictly forbid the word "expert" due to liability reasons, or require specific formatting for job titles.
