@@ -17,7 +17,7 @@ Mainstream grammar checkers (like Grammarly) catch spelling errors but fail to e
 I built a custom AI wrapper that:
 1.  Accepts raw text input.
 2.  Injects a **Custom System Prompt** (containing the specific Style Guide rules).
-3.  Returns a diff of corrections and "Editor's Notes" explaining *why* the change was made.
+3.  Returns a diff of corrections and "Editor's Notes" explaining *why* the change or changes were made.
 
 ## 🏗 Technical Architecture (The Security Layer)
 Instead of exposing the Google Gemini API key in the client-side code (a common security flaw in AI apps), I architected a **Backend-for-Frontend (BFF)** pattern using **Cloudflare Workers**.
